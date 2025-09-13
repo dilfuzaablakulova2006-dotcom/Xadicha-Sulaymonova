@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akademik Xadicha Sulaymonova</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/sulaymonova.jpg" alt="Xadicha Sulaymonova" class="hero-img">
+    <h1>Akademik Xadicha Sulaymonova</h1>
+    <nav>
+      <ul>
+        <li><a href="#hayoti">Hayoti</a></li>
+        <li><a href="#asarlar">Asarlari</a></li>
+        <li><a href="#konferensiyalar">Konferensiyalar</a></li>
+        <li><a href="#mukofotlar">Mukofotlari</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hayoti">
+      <h2>Hayoti va faoliyati</h2>
+      <p>Akademik Sulaymonova Oʻzbekiston jinoyat huquqini rivojlantirish, davlat qurilishi va xalq xoʻjaligini boshqarishda kengashlarning rolini oshirishga katta eʼtibor qaratgan...</p>
+    </section>
+
+    <section id="asarlar">
+      <h2>Asarlari</h2>
+      <ul>
+        <li>История советского государства и права Узбекистана: 1917-1924 гг. – Ташкент, 1960</li>
+        <li>История советского государства и права Узбекистана: 1924-1937 гг. – Ташкент, 1963</li>
+        <li>История советского государства и права Узбекистана: 1937-1958 гг. – Ташкент, 1966</li>
+        <li>Pravovie voprosi regulirovaniya narodnogo xozyaystva Uzbekistana – Toshkent, 1967</li>
+      </ul>
+    </section>
+
+    <section id="konferensiyalar">
+      <h2>Konferensiyalarda ishtiroki</h2>
+      <p>III Xalqaro sotsiologlar kongressi (Amsterdam, 1956), BMT II Kongressi (London, 1960), IAUD VII kongressi (Sofiya, 1960), Osiyo va Afrika ayollarining I konferensiyasi (Qohira, 1961)...</p>
+    </section>
+
+    <section id="mukofotlar">
+      <h2>Mukofotlari</h2>
+      <p>Oʻzbekiston SSRning xizmat koʻrsatgan fan arbobi (1954), ikki marta „Fahr nishoni“ ordeni, „Buyuk Vatan urushi davridagi mehnatkash jasorati uchun“ medali...</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Xadicha Sulaymonova haqida sayt</p>
+  </footer>
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #6a0dad; /* binafsha fon */
+  color: gold; /* tillarang harflar */
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.hero-img {
+  width: 200px;
+  border-radius: 50%;
+  border: 4px solid gold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: gold;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  border-bottom: 2px solid gold;
+  padding-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid gold;
+}
